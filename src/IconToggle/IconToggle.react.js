@@ -1,7 +1,6 @@
 /* eslint-disable import/no-unresolved, import/extensions */
 import {
   View,
-  Text,
   Animated,
   StyleSheet,
   Platform,
@@ -13,11 +12,11 @@ import PropTypes from 'prop-types';
 /* eslint-enable import/no-unresolved, import/extensions */
 import Color from 'color';
 
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 import withTheme from '../styles/withTheme';
 import { ViewPropTypes } from '../utils';
 import { ELEVATION_ZINDEX } from '../styles/constants';
 import Icon from '../Icon';
-import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   testID: PropTypes.string,
