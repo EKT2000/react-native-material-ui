@@ -49,7 +49,7 @@ const propTypes = {
     */
     style: PropTypes.shape({
         container: View.propTypes.style,
-        content: Text.propTypes.style,
+        content: TextPropTypes.style,
     }),
 };
 ```

@@ -67,7 +67,7 @@ const propTypes = {
      */
     style: PropTypes.shape({
       container: View.propTypes.style,
-      text: Text.propTypes.style,
+      text: TextPropTypes.style,
     }),
 };
 const defaultProps = {

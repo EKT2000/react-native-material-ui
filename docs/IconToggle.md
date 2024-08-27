@@ -50,7 +50,7 @@ const propTypes = {
     onPress: PropTypes.func,
     style: PropTypes.shape({
         container: View.propTypes.style,
-        icon: Text.propTypes.style,
+        icon: TextPropTypes.style,
     }),
 };
 ```

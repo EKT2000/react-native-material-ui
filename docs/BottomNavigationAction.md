@@ -65,8 +65,8 @@ const propTypes = {
     */
     style: PropTypes.shape({
         container: View.propTypes.style,
-        active: Text.propTypes.style,
-        disabled: Text.propTypes.style,
+        active: TextPropTypes.style,
+        disabled: TextPropTypes.style,
     }),
 };
 ```

@@ -6,6 +6,7 @@ import { ViewPropTypes } from '../utils';
 /* eslint-enable import/no-unresolved, import/extensions */
 import Icon from '../Icon';
 import withTheme from '../styles/withTheme';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   /**
@@ -37,7 +38,7 @@ const propTypes = {
    */
   style: PropTypes.shape({
     container: ViewPropTypes.style,
-    content: Text.propTypes.style, // eslint-disable-line
+    content: TextPropTypes.style, // eslint-disable-line
   }),
   iconSet: PropTypes.string,
   /**

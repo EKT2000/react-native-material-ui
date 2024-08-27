@@ -19,6 +19,7 @@ import RippleFeedback from '../RippleFeedback';
 import getPlatformElevation from '../styles/getPlatformElevation';
 /* eslint-enable import/no-unresolved, import/extensions */
 import withTheme from '../styles/withTheme';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 function darkenOrLighten(color, ratio = 0.5) {
   const c = Color(color);
@@ -75,7 +76,7 @@ const propTypes = {
    */
   style: PropTypes.shape({
     container: ViewPropTypes.style,
-    icon: Text.propTypes.style, // eslint-disable-line
+    icon: TextPropTypes.style, // eslint-disable-line
   }),
 };
 const defaultProps = {

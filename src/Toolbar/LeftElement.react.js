@@ -7,13 +7,14 @@ import { ViewPropTypes } from '../utils';
 import withTheme from '../styles/withTheme';
 
 import IconToggle from '../IconToggle';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   leftElementTestID: PropTypes.string,
   isSearchActive: PropTypes.bool.isRequired,
   style: PropTypes.shape({
     leftElementContainer: ViewPropTypes.style,
-    leftElement: Text.propTypes.style, // eslint-disable-line
+    leftElement: TextPropTypes.style, // eslint-disable-line
   }),
   size: PropTypes.number,
   leftElement: PropTypes.node,

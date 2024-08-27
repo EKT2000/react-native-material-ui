@@ -8,6 +8,7 @@ import withTheme from '../styles/withTheme';
 
 import RippleFeedback from '../RippleFeedback';
 import Icon from '../Icon';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   testID: PropTypes.string,
@@ -38,8 +39,8 @@ const propTypes = {
    */
   style: PropTypes.shape({
     container: ViewPropTypes.style,
-    active: Text.propTypes.style, // eslint-disable-line
-    disabled: Text.propTypes.style, // eslint-disable-line
+    active: TextPropTypes.style, // eslint-disable-line
+    disabled: TextPropTypes.style, // eslint-disable-line
   }),
   disabled: PropTypes.bool,
 };

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 /* eslint-enable import/no-unresolved, import/extensions */
 import { ViewPropTypes } from '../utils';
 import withTheme from '../styles/withTheme';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   text: PropTypes.string.isRequired,
@@ -12,7 +13,7 @@ const propTypes = {
   lines: PropTypes.number,
   style: PropTypes.shape({
     container: ViewPropTypes.style,
-    text: Text.propTypes.style, // eslint-disable-line
+    text: TextPropTypes.style, // eslint-disable-line
   }),
 };
 const defaultProps = {

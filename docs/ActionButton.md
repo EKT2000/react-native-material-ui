@@ -65,14 +65,14 @@ const propTypes = {
     */
     style: PropTypes.shape({
         container: View.propTypes.style,
-        icon: Text.propTypes.style,
+        icon: TextPropTypes.style,
         positionContainer: View.propTypes.style,
         // Toolbar styles
         toolbarContainer: View.propTypes.style,
         toolbarActionContainer: View.propTypes.style,
         // Speed Dial styles
         speedDialActionIcon: View.propTypes.style,
-        speedDialActionLabel: Text.propTypes.style,
+        speedDialActionLabel: TextPropTypes.style,
         speedDialActionLabelContainer: View.propTypes.style
     }),
 };

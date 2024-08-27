@@ -10,6 +10,7 @@ import RippleFeedback from '../RippleFeedback';
 import getPlatformElevation from '../styles/getPlatformElevation';
 /* eslint-enable import/no-unresolved, import/extensions */
 import withTheme from '../styles/withTheme';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   testID: PropTypes.string,
@@ -50,7 +51,7 @@ const propTypes = {
    */
   style: PropTypes.shape({
     container: ViewPropTypes.style,
-    text: Text.propTypes.style, // eslint-disable-line
+    text: TextPropTypes.style, // eslint-disable-line
   }),
   primary: PropTypes.bool,
   accent: PropTypes.bool,

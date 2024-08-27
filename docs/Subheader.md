@@ -20,7 +20,7 @@ const propTypes = {
     lines: PropTypes.number,
     style: PropTypes.shape({
         container: View.propTypes.style,
-        text: Text.propTypes.style,
+        text: TextPropTypes.style,
     }),
 };
 ```

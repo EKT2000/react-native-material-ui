@@ -17,6 +17,7 @@ import Divider from '../Divider';
 import Icon from '../Icon';
 import IconToggle from '../IconToggle';
 import RippleFeedback from '../RippleFeedback';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const { UIManager } = NativeModules;
 
@@ -43,11 +44,11 @@ const propTypes = {
     leftElementContainer: ViewPropTypes.style,
     centerElementContainer: ViewPropTypes.style,
     textViewContainer: ViewPropTypes.style,
-    primaryText: Text.propTypes.style, // eslint-disable-line
+    primaryText: TextPropTypes.style, // eslint-disable-line
     firstLine: ViewPropTypes.style,
-    primaryTextContainer: Text.propTypes.style, // eslint-disable-line
-    secondaryText: Text.propTypes.style, // eslint-disable-line
-    tertiaryText: Text.propTypes.style, // eslint-disable-line
+    primaryTextContainer: TextPropTypes.style, // eslint-disable-line
+    secondaryText: TextPropTypes.style, // eslint-disable-line
+    tertiaryText: TextPropTypes.style, // eslint-disable-line
     rightElementContainer: ViewPropTypes.style,
     leftElement: PropTypes.style,
     rightElement: PropTypes.style,

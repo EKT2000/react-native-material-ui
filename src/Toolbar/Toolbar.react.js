@@ -9,6 +9,7 @@ import CenterElement from './CenterElement.react';
 import RightElement from './RightElement.react';
 import isFunction from '../utils/isFunction';
 import withTheme from '../styles/withTheme';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   /**
@@ -69,7 +70,7 @@ const propTypes = {
     // FIXME
     leftElement: PropTypes.any, // eslint-disable-line
     centerElementContainer: ViewPropTypes.style,
-    titleText: Text.propTypes.style, // eslint-disable-line
+    titleText: TextPropTypes.style, // eslint-disable-line
     rightElementContainer: ViewPropTypes.style,
     rightElement: PropTypes.any, // eslint-disable-line
   }),

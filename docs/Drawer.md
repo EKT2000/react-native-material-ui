@@ -108,9 +108,9 @@ const propTypes = {
         container: View.propTypes.style,
         item: View.propTypes.style,
         subheader: View.propTypes.style,
-        icon: Text.propTypes.style,
-        value: Text.propTypes.style,
-        label: Text.propTypes.style,
+        icon: TextPropTypes.style,
+        value: TextPropTypes.style,
+        label: TextPropTypes.style,
     }),
 };
 ```
