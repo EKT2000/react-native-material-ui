@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xotahal/react-native-material-ui"
+    "url": "https://github.com/EKT2000/react-native-material-ui/blob/1.0/package.json"
   },
   "jest": {
     "preset": "react-native",
