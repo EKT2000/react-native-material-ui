@@ -17,6 +17,7 @@ import withTheme from '../styles/withTheme';
 import { ViewPropTypes } from '../utils';
 import { ELEVATION_ZINDEX } from '../styles/constants';
 import Icon from '../Icon';
+import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 const propTypes = {
   testID: PropTypes.string,
@@ -60,7 +61,7 @@ const propTypes = {
   style: PropTypes.oneOfType([
     PropTypes.shape({
       container: ViewPropTypes.style,
-      icon: Text.propTypes.style, // eslint-disable-line
+      icon: TextPropTypes.style,
     }),
     PropTypes.array,
   ]),
